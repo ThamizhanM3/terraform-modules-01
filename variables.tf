@@ -3,6 +3,11 @@ variable "aws_region" {
     default = "ap-south-1"
 }
 
+variable "availability_zone" {
+    type = string
+    default = "ap-south-1a"
+}
+
 variable "instance_type" {
     type    = string
     default = "t2.micro"
